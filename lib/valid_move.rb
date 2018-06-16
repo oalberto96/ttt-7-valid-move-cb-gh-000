@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(index)
-  if index >= 0 && index <= 8
+  if index.between?(0,8)
     return true
   end
   return false
